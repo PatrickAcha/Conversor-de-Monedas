@@ -27,7 +27,7 @@ public class Main {
         while (true) {
             System.out.println("Conversor de Monedas");
             System.out.println("1. Convertir USD (Dólar estadounidense) a Peso argentino");
-            System.out.println("2. Convertir USD (Dólar estadounidense) a Boliviano boliviano");
+            System.out.println("2. Convertir USD (Dólar estadounidense) a Boliviano");
             System.out.println("3. Convertir USD (Dólar estadounidense) a Real brasileño");
             System.out.println("4. Convertir USD (Dólar estadounidense) a Peso chileno");
             System.out.println("5. Convertir USD (Dólar estadounidense) a Peso colombiano");
@@ -51,7 +51,7 @@ public class Main {
                     break;
                 case 2:
                     cantidadConvertida = convertidor.convertir(cantidadUSD, dolarEstadounidense, boliviano);
-                    System.out.println(cantidadUSD + " USD (Dólar estadounidense) = " + cantidadConvertida + " BOB (Boliviano boliviano)");
+                    System.out.println(cantidadUSD + " USD (Dólar estadounidense) = " + cantidadConvertida + " BOB (Boliviano)");
                     break;
                 case 3:
                     cantidadConvertida = convertidor.convertir(cantidadUSD, dolarEstadounidense, realBrasileno);
