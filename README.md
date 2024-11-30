@@ -65,4 +65,4 @@ Este proyecto es un conversor de monedas desarrollado en Java, que utiliza la AP
 - **`Principal.java`**: Clase principal que maneja la interacción con el usuario.
 ---
 
-¡Gracias por utilizar el Conversor de Monedas! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactar al mantenedor del proyecto.
+¡Gracias por utilizar el Conversor de Monedas! 
